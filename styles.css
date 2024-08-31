@@ -1,0 +1,53 @@
+body {
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#stopwatch-container {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#stopwatch-container p {
+    font-size:3rem;
+}
+#stopwatch-container button {
+    font-size: 1.5rem;
+    width:100px;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+}
+#button-wrapper {
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+
+#startBtn {
+    background-color: rgb(2, 179, 2);
+    cursor: pointer;
+}
+#stopBtn {
+    background-color: rgb(168, 2, 2);
+    cursor: pointer;
+}
+#restartBtn {
+    background-color: rgb(0, 101, 233);
+    cursor: pointer;
+}
+
+#startBtn:active {
+    background-color: rgb(0, 236, 0);
+}
+#stopBtn:active {
+    background-color: red;
+}
+#restartBtn:active {
+    background-color: rgb(0, 160, 209);
+}
